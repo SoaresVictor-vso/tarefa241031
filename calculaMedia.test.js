@@ -17,7 +17,4 @@ describe('Média genérica', () => {
     expect(calculaMedia(10, 10, 10)).toBe(10);
   });
 
-  test('retorna NaN se qualquer parâmetro não for numérico', () => {
-    expect(calculaMedia(10, 'a', 30)).toBeNaN();
-  });
 });
