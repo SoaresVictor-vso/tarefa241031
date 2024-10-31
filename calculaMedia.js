@@ -1,7 +1,5 @@
 function calculaMedia(a, b, c) {
-    const soma = a + b + c;
-    const media = soma / 3;
-    return media;
+    return (a + b + c) / 3;
   }
   
   module.exports = calculaMedia;
